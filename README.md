@@ -8,7 +8,7 @@ Source: http://goo.gl/jwnyKu
 Informação
 -----------
 
-É um projeto com CRUD utilizando Hibernate, projeto Maven 3.  
+É um projeto com CRUD utilizando Hibernate com annotations e com mapeamento por xml, projeto Maven 3.  
 
 
 Requerimentos
@@ -25,6 +25,6 @@ Antes executar o projeto:
 Acesso para a aplicação
 ---------------------
 
-Execute a classe ContatoCrudJDBC
+Execute a classe ContatoCrudAnnotations e ContatoCrudXML
 
 
