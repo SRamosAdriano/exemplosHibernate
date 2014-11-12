@@ -1,0 +1,15 @@
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="br.com.sramos.exemploshibernate.crudxml">
+	<class name="Contato" table="contato">
+		<id name="codigo" column="codigo">
+			<generator class="increment"/>
+		</id>
+		<property name="nome"/>
+		<property name="telefone"/>
+		<property name="email"/>
+		<property name="observacao" column="obs"/>
+		<property name="dataCadastro" type="date" column="dt_cad"/>
+	</class>
+</hibernate-mapping>
